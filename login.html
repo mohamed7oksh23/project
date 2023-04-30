@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css.map">
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="photos/favicon.ico">
+</head>
+<body>
+    <div class="hero_area">
+                                                                 <!--header start-->
+        <header class="header_section">
+            <div class="container_fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="">
+                        <span>
+                            Doc.tour
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home.html">Home </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="about.html"> About </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home.html#service"> Services </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="login.html"> Login <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="signup.html"> Sign Up</a>
+                                </li>
+                            </ul>
+                            <div class="user_option">
+                                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    
+                                                                            <!--header end-->
+                                                                            <!--content start-->
+    <section class="slider_section">
+        <div class="container">
+            <div class="box">
+                <div class="white-box">
+                    <form action="/action_page.php" method="post">
+                        <h2>login</h2>
+                        <ul>
+                        <li><label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        </li>
+                        <li><label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        </li>
+                        <li><label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <span class="psw">&nbsp &nbsp Forgot <a href="#" target="_blank">password?</a></span>
+                        </li>
+                        <button type="reset" style="background-color: #ef3c3d;">Reset</button>
+                        <button type="submit">Login</button>
+                        </ul>
+                    </form>    
+                </div>
+            </div>
+        </div>
+
+    </section>
+                                                                            <!--content end-->
+                                                                            <!--info section-->
+    <div class="info_section layout_padding">
+        <div class="container ">
+            <div class="info_content">
+                <div>
+                    <div class="float-lg-left">
+                        <div class="col-sm-8">
+                            <div class="d-flex">
+                                <h5>
+                                    Who We Are
+                                </h5>
+                            </div>
+                            <div class="d-flex ">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                             Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="ml-3 ml-md-5">
+                                    <li>
+                                        <a href="home.html#service">
+                                            Cancer Oncology
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="home.html#service">
+                                            Dental Surgery
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="home.html#service">
+                                            Diagnose & Research
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Drug / Medicines
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+                <div class="social-box">
+                    <a href="https://www.facebook.com/">
+                        <img src="photos/fb-icon.png" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="photos/instagram-icon.png" alt="" />
+                    </a>
+                    <a href="https://twitter.com/home">
+                        <img src="photos/twitter-icon.png" alt="" />
+                    </a>
+                </div>
+                <div class="form_container mt-5">
+                    <div class="row">
+                        <div class="d-lg-table-cell">                
+                            <form action="">
+                                <ul><li>
+                                    <label for="subscribeMail">
+                                        Comment
+                                    </label>
+                                    <input
+                                        type="comment"
+                                        placeholder="Enter Your comment"
+                                        id="subscribeMail"/>
+                                        <button type="submit">
+                                            Submit
+                                        </button></li>
+                            <li><label for="subscribeMail">
+                                Newsletter
+                            </label>
+                            <input
+                                type="email"
+                                placeholder="Enter Your email"
+                                id="subscribeMail"/>
+                            <button type="submit">
+                                Subscribe
+                            </button></li></ul>
+                        </form>
+                            
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <section class="container-fluid footer_section">
+    <p>
+    &copy; 2023 All Rights Reserved By 7oksh
+    </p>
+    </section>
+    
+</body>
+</html>
